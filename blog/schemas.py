@@ -3,7 +3,7 @@ from typing import Optional
 
 
 class Blog(BaseModel):
-    name: str
-    description: Optional[str] = None
-    price: float
-    tax: Optional[int] = None
+    id : Optional[int] = None
+    title: str
+    body: Optional[str] = None
+
