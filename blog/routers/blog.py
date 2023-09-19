@@ -1,5 +1,6 @@
 from typing import List
 from fastapi import FastAPI, Depends, HTTPException, Response, status, APIRouter
+from oauth2 import get_current_user
 from database import get_db
 from schemas import Blog, ShowBlogTitle, User, ShowUser, CreateBlog
 import models
@@ -12,7 +13,7 @@ router = APIRouter()
 @router.get(
     "/all-blog", status_code=status.HTTP_201_CREATED, response_model=List[ShowBlogTitle]
 )
-def all(db: Session = Depends(get_db)):
+def all(db: Session = Depends(get_db), get_current_user: User = Depends(get_current_user)):
     blogs = db.query(models.Blog).all()
     return blogs
 
