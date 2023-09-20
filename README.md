@@ -1,11 +1,11 @@
 Certainly, here's a sample `README.md` file for a FastAPI course, including an image of the FastAPI logo and the commands to run the app and access the Swagger documentation:
 
-[[![FastAPI Logo](fastapi-logo.png)](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png)
-
 ```markdown
 # FastAPI Course
 
 Welcome to the FastAPI course! In this course, you'll learn how to build blazing-fast web APIs with FastAPI.
+
+![FastAPI Logo](fast-api.png)
 
 ## Getting Started
 
