@@ -5,7 +5,7 @@ Certainly, here's a sample `README.md` file for a FastAPI course, including an i
 
 Welcome to the FastAPI course! In this course, you'll learn how to build blazing-fast web APIs with FastAPI.
 
-![FastAPI Logo](fast-api.png)
+![FastAPI Logo](./fast-api.png)
 
 ## Getting Started
 
